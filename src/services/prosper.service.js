@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('prosperWrangler')
-  .factory('prosper', function (Restangular) {
+  .factory('ProsperSvc', function (Restangular) {
   	
   	var base = Restangular.allUrl('prosperApi', 'https://api.prosper.com/api/');
 
