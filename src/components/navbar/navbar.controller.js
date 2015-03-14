@@ -18,37 +18,37 @@ angular.module('prosperWrangler')
   			{
           name: 'Notes',
   				state: 'notes',
-  				url: '/notes'
+  				url: '#/notes'
   			},
   			{
   				name: 'Investments',
           state: 'investments',
-  				url: '/investments'
+  				url: '#/investments'
   			},
   			{
   				name: 'Loans',
           state: 'loans',
-  				url: '/loans'
+  				url: '#/loans'
   			},
   			{
   				name: 'Listings',
           state: 'listings',
-  				url: '/listings'
+  				url: '#/listings'
   			},
   			{
   				name: 'Listings Historical',
           state: 'listings-historical',
-  				url: '/listings-historical'
+  				url: '#/listings-historical'
   			},
   			{
   				name: 'Account',
           state: 'account',
-  				url: '/account'
+  				url: '#/account'
   			},
   			{
   				name: 'Data Dictionary',
           state: 'data-dictionary',
-  				url: '/data-dictionary'
+  				url: '#/data-dictionary'
   			}
   		];
 
@@ -59,8 +59,7 @@ angular.module('prosperWrangler')
   		});
   	};
 
-    
-
+    init();
     
 
 
